@@ -64,10 +64,12 @@ body{
 .intro{
     background-image: url(image/bg.jpg);
     background-repeat: no-repeat;
-    background-position: cover;
-    width: 100%;
+    background-position: right;
+    margin-bottom: 100px;
+   }
+   .display{
     display: flex;
-}
+   }
 .description{
     padding: 80px 200px;
 }
@@ -79,7 +81,7 @@ body{
 }
 .container{
     display: flex;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
 }
 .top-width{width: 50%;
     padding-left: 6%;
@@ -101,32 +103,38 @@ padding: 0px 150px 0px 0px;
 .offer{
    margin-bottom: 100px;
 }
-
-.flexible-container{
+.recipe{
     display: flex;
-    margin-bottom: 150px; 
 }
+.img{
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 5%;
+}
+.experience-item {
+    width: 300px;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px grey;}
  .half-width{
-    width: 50%;
+    width: 60%;
     padding-left: 6%;
     padding-right: 10%;}
 
 .experience{
     text-align: center;
     padding: 0px 400px 0px 400px;
+    margin-bottom: 40px;
     }
 
-    .food-1{
-        width: 50%;
-         }
-    
-   .experience-item{
-       margin-left: 5%;
-       margin-right: 5%;
-       box-shadow: 20px 20px 40px gray;
-       border-top-right-radius: 5%;
-       border-bottom-right-radius: 5%;
-       }
+        
+   
 footer{
     margin-top: 50px;
     background-color: black;
