@@ -36,12 +36,10 @@ body{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(to right, #FB8E49, #fd4f30);
-    padding: 5px 20px;
-    font-weight: 500;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
     color: white;
-    border-radius: 10%;
-    box-shadow: 0px 5px 10px #ff664b;
+    border-radius: 30px;
 }
 .menu ul li a{
     color: black;
@@ -50,19 +48,17 @@ body{
 }
 .link-menu{
     text-decoration: none;
-    background-image: linear-gradient(to right, #FB8E49, #fd4f30);
+    background-image: linear-gradient(orange, tomato);
     padding: 10px 20px;
-    font-weight: 700;
     color: black;
-    border-radius: 10%;
-    box-shadow: 0px 5px 10px #ff664b;
-    
+    border-radius: 30px;
+    font-weight: 500;
 }
 .font-color{
     color: #FD5030;
 }
 .intro{
-    background-image: url(image/bg.jpg);
+    background-image: url(image/7.png);
     background-repeat: no-repeat;
     background-position: right;
     margin-bottom: 100px;
@@ -85,9 +81,7 @@ body{
 }
 .top-width{width: 50%;
     padding-left: 6%;
-    padding-right: 10%;
-
-}
+    padding-right: 10%;}
 h1{
 font-size: 100x;
 font-weight: 900;
@@ -132,9 +126,7 @@ padding: 0px 150px 0px 0px;
     padding: 0px 400px 0px 400px;
     margin-bottom: 40px;
     }
-
-        
-   
+  
 footer{
     margin-top: 50px;
     background-color: black;
